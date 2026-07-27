@@ -4,7 +4,7 @@ plugins {
     application
 }
 
-group = "YellowStarSoftware.RayTracer"
+group = "tabaquithemasteroftime.RayTracer"
 version = "1.0.0"
 
 repositories {
@@ -14,9 +14,9 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
-    implementation(files("/libs/YellowStar-0.0.16.jar"))
+    implementation(files("/libs/YellowStar-0.0.21.jar"))
 }
 
 application {
-    this.mainClass.set("yellowstarsoftware.raytracer.Main")
+    this.mainClass.set("tabaquithemasteroftime.raytracer.Main")
 }
